@@ -10464,3 +10464,16 @@ body {
 .carousel-control-next-icon {
   border-radius: 50%; /* Opcional: hace que las flechas tengan borde redondeado */
 }
+
+.gif {
+  display: flex;
+  justify-content: center;
+  @media (max-width: 576px) {
+    flex-wrap: wrap;
+  }
+}
+
+.gif img {
+  max-width: 250px;
+  padding: 15px;
+}
