@@ -10452,7 +10452,7 @@ body {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: black; /* Cambia el color a rojo */
+  background-color: black;
   background-size: 100%, 100%; /* Asegura que el ícono se mantenga con su tamaño original */
   padding: 10px;
 }
